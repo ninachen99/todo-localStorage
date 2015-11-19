@@ -1,0 +1,90 @@
+body {
+	text-align: center;
+	background: #55acee;
+	font-family: "Trebuchet MS";
+}
+
+.done-btn {
+	margin: 8px 10px;
+	width: 17px; height: 17px;
+    border: 1px solid #aaa;
+    background: #f8f8f8;
+    border-radius: 3px;
+}
+
+h1 {
+    font-size: 3em;
+    color:#fff; 
+    font-weight: 300;
+}
+
+h4 {
+	transform: translateX(-20px);
+}
+
+ul {
+    padding: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.todo-calc {
+	color:#fff;
+	font-size:1.5em;
+	font-weight: 400;
+}
+
+#name {
+	width: 300px;
+	height: 50px;
+	border-radius: 15px;
+	margin-right: 20px;
+}
+
+#add-btn {
+	width: 90px;
+	height: 40px;
+	background: #f2437e;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1em;
+	margin-right: 65px;
+	border-radius: 5px;
+
+}
+
+#clear-all {
+	width: 100px;
+	height: 40px;
+	background: #f2437e;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1em;
+	margin-left: -60px;
+	border-radius: 5px;
+}
+
+.todos {
+	display: flex;
+	flex-direction: row;
+	color: #fff;
+	font-weight: 200;
+	font-size: 1.4em;
+	transform:translateX(550px);
+	width: 60%;
+	
+}
+
+.cancel-btn {
+	font-size: 0.8em;
+	color:#3f3f40;
+	display:inline-block;
+	margin: 4px 10px;
+}
+
+
+
+
+
